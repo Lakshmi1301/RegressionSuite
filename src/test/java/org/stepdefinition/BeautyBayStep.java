@@ -145,23 +145,8 @@ public void user_clicks_on_the_icon_in_the_box_to_add_up_the_qnty_of_the_items()
 	
 }
 
-@When("user clicks on Checkout securely button  and click on Next button")
-public void user_clicks_on_Checkout_securely_button_and_click_on_Next_button() throws IOException, InterruptedException {
-	  Thread.sleep(5000);
-	  btnClk(page.getLoginPage().getClkCheckoutSecurely());
-	  fill(page.getLoginPage().getTxtEmail(),"lakshmichokalingam13@gmail.com");
-	  fill(page.getLoginPage().getTxtPassword(),"Vimala@13");
-	  btnClk(page.getLoginPage().getClkNext());
-	  takeScreenShots("C:\\screenshots\\BeautyBay.com\\13.png");
-}
 
-@When("user clicks on the Next button and again clicks on the nect button")
-public void user_clicks_on_the_Next_button_and_again_clicks_on_the_nect_button() throws IOException, InterruptedException {
-    Thread.sleep(5000);
-	btnClk(page.getLoginPage().getClkNext2());
-	btnClk(page.getLoginPage().getClkNext3());
-	takeScreenShots("C:\\screenshots\\BeautyBay.com\\14.png");
-}
+
 
 @Then("user see the outcome")
 public void user_see_the_outcome() {

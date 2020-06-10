@@ -15,8 +15,8 @@ Feature: verifying the BeautyBay website
     And user Selects the colour for the product in the dropdown box
     And user clicks on Add to bag button and click on the view bag button on the popup message
     And user clicks on the  + icon in the box to add up the qnty of the items
-    And user clicks on Checkout securely button  and click on Next button
-    And user clicks on the Next button and again clicks on the nect button
+    
+   
     Then user see the outcome
 
     Examples: 
